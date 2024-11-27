@@ -1,0 +1,10 @@
+version: '3'
+services:
+  elixir:
+    build: ./elixir
+    image: elixir
+    container_name: elixir-project
+    tty: true
+    stdin_open: true
+    volumes:
+      - /Users/Y/dev/elixir:/home/elixir
