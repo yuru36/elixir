@@ -7,4 +7,4 @@ services:
     tty: true
     stdin_open: true
     volumes:
-      - /Users/Y/dev/elixir:/home/elixir
+      - .:/home/elixir
