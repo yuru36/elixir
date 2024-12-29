@@ -1,1 +1,5 @@
-docker container run -v /Users/Y/dev/elixir:/home/elixir -it elixir bash
+# To make postgres
+
+docker compose up
+
+psql -h localhost -U postgres -d postgres
